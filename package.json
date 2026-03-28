@@ -1,7 +1,10 @@
 {
-  "name": "daksh-portfolio",
+  "name": "made-you-notice",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

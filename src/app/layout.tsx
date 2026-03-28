@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Daksh | Cinematic Filmmaker & Video Editor",
-  description: "A premium portfolio for filmmaker and video editor Daksh.",
+  title: "Made You Notice | Creative Agency",
+  description: "We create cinematic reels that make people stop scrolling.",
 };
 
 export default function RootLayout({
