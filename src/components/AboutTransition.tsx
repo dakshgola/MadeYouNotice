@@ -37,7 +37,7 @@ export default function AboutTransition() {
       {/* Large Horizontal Scrolling Text */}
       <div className="absolute top-1/2 -translate-y-1/2 w-[200vw] z-20 pointer-events-none mix-blend-difference">
         <motion.div style={{ x }} className="flex whitespace-nowrap">
-          {Array(8).fill("about").map((text, i) => (
+          {Array(8).fill("daksh").map((text, i) => (
             <span key={i} className="text-[150px] md:text-[200px] font-bold text-white uppercase px-8 leading-none opacity-80">
               {text} &bull;
             </span>

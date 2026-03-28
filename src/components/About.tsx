@@ -7,13 +7,13 @@ export default function About() {
     "Video Editing",
     "Color Grading",
     "Motion Graphics",
+    "Cinematic Storytelling",
     "Commercial Films",
-    "Short Films",
-    "Creative Direction"
+    "Short Films"
   ];
 
   return (
-    <section className="bg-primary py-32 px-6 md:px-12 text-white">
+    <section id="about" className="bg-primary py-32 px-6 md:px-12 text-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
         
         {/* Left Col - Image */}
@@ -29,9 +29,10 @@ export default function About() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[40px] md:text-[56px] font-bold tracking-tight mb-8 leading-tight text-white"
+            className="text-[36px] md:text-[48px] font-bold tracking-tight mb-8 leading-tight text-white"
           >
-            I am Daksh, a filmmaker focused on <span className="text-accent italic">cinematic storytelling</span>, brand visuals, and emotional narratives.
+            I’m Daksh, a filmmaker and video editor focused on <span className="text-accent italic">cinematic storytelling</span>, brand films, and emotionally driven visuals.<br/><br/>
+            <span className="text-2xl md:text-3xl text-white/70 font-medium">My work blends editing, motion, and narrative to create compelling visual experiences.</span>
           </motion.h2>
 
           <motion.div 

@@ -2,10 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function ProjectShowcase() {
   const projects = [
-    { id: 1, title: "Frames in Motion", info: "Los Angeles / 2023", category: "Commercial" },
-    { id: 2, title: "Journey Through Time", info: "Paris / 2022", category: "Documentary" },
-    { id: 3, title: "Experimental Narratives", info: "New York / 2024", category: "Art Film" },
-    { id: 4, title: "Echoes of Silence", info: "Tokyo / 2023", category: "Short Film" },
+    { id: 1, title: "Frames in Motion", info: "India / 2024", category: "Commercial", link: "#" },
+    { id: 2, title: "Journey Through Time", info: "Delhi / 2023", category: "Documentary", link: "#" },
+    { id: 3, title: "Experimental Narratives", info: "Mumbai / 2022", category: "Art Film", link: "#" },
+    { id: 4, title: "Echoes of Silence", info: "2024", category: "Short Film", link: "#" },
   ];
 
   return (
@@ -15,7 +15,10 @@ export default function ProjectShowcase() {
         
         <div className="flex flex-col border-t border-white/10">
           {projects.map((project, i) => (
-            <div 
+            <a 
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               key={project.id} 
               className="group flex flex-col md:flex-row md:items-center justify-between py-10 md:py-16 border-b border-white/10 hover:bg-white/[0.02] transition-colors duration-500 cursor-pointer"
             >
@@ -34,7 +37,7 @@ export default function ProjectShowcase() {
                   <ArrowUpRight className="w-6 h-6 transform group-hover:rotate-45 transition-transform duration-500" />
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
