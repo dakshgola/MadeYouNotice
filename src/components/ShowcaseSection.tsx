@@ -11,7 +11,7 @@ const PROJECTS = [
 
 export default function ShowcaseSection() {
   return (
-    <section className="py-24 px-6 md:px-12 bg-primary w-full relative z-10">
+    <section id="work" className="py-24 px-6 md:px-12 bg-primary w-full relative z-10">
       <div className="max-w-7xl mx-auto">
         <motion.h2 
           className="text-4xl md:text-5xl font-bold mb-16 text-center"

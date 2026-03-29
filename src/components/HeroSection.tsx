@@ -10,7 +10,7 @@ const ThreeCanvas = dynamic(() => import("./ThreeCanvas"), {
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-primary">
+    <section id="home" className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-primary">
       <ThreeCanvas />
       
       <div className="z-10 flex flex-col items-center text-center px-6 max-w-4xl pointer-events-none">

@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import HeroSection from "@/components/HeroSection";
 import Preloader from "@/components/Preloader";
+import Navbar from "@/components/Navbar";
 
 // Lazy load below-the-fold components
 const AboutUsSection = dynamic(() => import("@/components/AboutUsSection"), { ssr: false });
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-primary text-textPrimary overflow-hidden font-sans">
       <Preloader />
+      <Navbar />
       <HeroSection />
       <AboutUsSection />
       <ShowcaseSection />

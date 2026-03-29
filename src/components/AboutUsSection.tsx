@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AboutUsSection() {
   return (
-    <section className="py-24 md:py-32 px-6 md:px-12 bg-primary w-full relative z-10 flex flex-col items-center justify-center overflow-hidden">
+    <section id="about" className="py-24 md:py-32 px-6 md:px-12 bg-primary w-full relative z-10 flex flex-col items-center justify-center overflow-hidden">
       {/* Subtle Background Glow Elements */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-xl h-[400px] bg-accent1/5 rounded-full blur-[120px] pointer-events-none z-0"></div>
 
