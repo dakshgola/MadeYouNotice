@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ContactSection() {
   return (
-    <section className="py-32 px-6 md:px-12 bg-primary relative z-10 w-full">
+    <section id="contact" className="py-32 px-6 md:px-12 bg-primary relative z-10 w-full">
       <div className="max-w-4xl mx-auto">
         <motion.div
           className="relative rounded-3xl p-[1px] bg-gradient-to-b from-white/10 to-transparent subtle-glow"
@@ -20,11 +20,11 @@ export default function ContactSection() {
             
             <div className="flex-1 z-10">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Let’s Make Your Brand <br/>
-                <span className="text-accent1">Impossible to Ignore</span>
+                Let’s Grow <br/>
+                <span className="text-accent1">Your Brand</span>
               </h2>
               <p className="text-textSecondary mb-10 text-lg">
-                Stop wasting time on content that doesn't convert. Get cinematic reels that force attention.
+                Content creation and social media management for businesses looking to build a strong online presence.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +42,7 @@ export default function ContactSection() {
                   rel="noreferrer"
                   className="px-8 py-4 bg-white/5 border border-white/10 text-white font-medium rounded-full hover:bg-white/10 transition-colors text-center backdrop-blur-md"
                 >
-                  Instagram
+                  View Our Work
                 </a>
               </div>
             </div>
@@ -56,11 +56,11 @@ export default function ContactSection() {
                 />
                 <input 
                   type="text" 
-                  placeholder="Business Name" 
+                  placeholder="Your Brand / Business Name" 
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-accent1/50 transition-colors"
                 />
                 <textarea 
-                  placeholder="What's your goal?" 
+                  placeholder="Tell us about your requirement" 
                   rows={4}
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-accent1/50 transition-colors resize-none"
                 />
@@ -68,7 +68,7 @@ export default function ContactSection() {
                   type="submit"
                   className="w-full py-4 bg-white text-black font-bold rounded-xl mt-2 hover:bg-white/90 hover:scale-[1.02] transition-all duration-300"
                 >
-                  Send Request
+                  Send Message
                 </button>
               </form>
             </div>

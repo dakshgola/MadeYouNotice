@@ -32,7 +32,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          We create cinematic reels that make people stop scrolling.
+          From content creation to social media management — we help your brand get noticed.
         </motion.p>
         
         <motion.button 
@@ -40,8 +40,9 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
+          onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
         >
-          Get Your Cafe Noticed
+          Elevate Your Presence
         </motion.button>
       </div>
 

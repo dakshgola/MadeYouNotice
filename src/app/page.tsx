@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import Preloader from "@/components/Preloader";
 
 // Lazy load below-the-fold components
+const AboutUsSection = dynamic(() => import("@/components/AboutUsSection"), { ssr: false });
 const ShowcaseSection = dynamic(() => import("@/components/ShowcaseSection"), { ssr: false });
 const ServicesSection = dynamic(() => import("@/components/ServicesSection"), { ssr: false });
 const ProcessSection = dynamic(() => import("@/components/ProcessSection"), { ssr: false });
@@ -18,6 +19,7 @@ export default function Home() {
     <main className="min-h-screen bg-primary text-textPrimary overflow-hidden font-sans">
       <Preloader />
       <HeroSection />
+      <AboutUsSection />
       <ShowcaseSection />
       <ServicesSection />
       <ProcessSection />

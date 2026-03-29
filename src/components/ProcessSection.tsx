@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Camera, Edit3, TrendingUp, Zap } from "lucide-react";
+import { Lightbulb, Camera, Rocket, TrendingUp } from "lucide-react";
 
 const PROCESS = [
-  { id: 1, title: "Shoot", icon: Camera, desc: "Cinematic, high-retention recording." },
-  { id: 2, title: "Edit", icon: Edit3, desc: "Bold cuts, color grading, sound design." },
-  { id: 3, title: "Optimize", icon: Zap, desc: "Algorithm-friendly formatting." },
-  { id: 4, title: "Grow", icon: TrendingUp, desc: "Watch the views and sales roll in." },
+  { id: 1, title: "Understand", icon: Lightbulb, desc: "We dive into your brand and what makes it worth noticing." },
+  { id: 2, title: "Create", icon: Camera, desc: "Scroll-stopping content designed to capture attention instantly." },
+  { id: 3, title: "Launch", icon: Rocket, desc: "Strategic posting and optimization for maximum reach." },
+  { id: 4, title: "Scale", icon: TrendingUp, desc: "We double down on what works and turn attention into growth." },
 ];
 
 export default function ProcessSection() {
